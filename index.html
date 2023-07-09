@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto-Cartas-Uno</title>
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/images/logo.png" alt="unologo" />
+    </header>
+
+    <main class="selecao-de-cartas">
+      <section class="cartas">
+        <h1 class="titulo">Selecione uma carta</h1>
+
+        <ul class="lista-de-cartas">
+          <li class="carta selecionada" id="card-draw-four" data-name="Draw Four" data-description="Jogue esta carta para escolher a cor que continuará jogando e o próximo jogador deve comprar 4 cartas e perder a vez.">
+            <img
+              src="./src/images/card-draw-four.png"
+              alt="carta mais quatro"
+            />
+          </li>
+
+          <li class="carta" id="card-wild" data-name="Wild" data-description="Jogue esta carta para escolher a cor que continuará jogando.">
+            <img src="./src/images/card-wild.png" alt="carta coringa" />
+          </li>
+
+          <li class="carta" id="card-block" data-name="Block" data-description="O próximo jogador é pulado e perde a vez.">
+            <img src="./src/images/card-block.png" alt="carta bloquear" />
+          </li>
+
+          <li class="carta" id="card-draw-two" data-name="Draw Two" data-description="O próximo jogador deve comprar 2 cartas e perder a vez.">
+            <img src="./src/images/card-draw-two.png" alt="carta mais dois" />
+          </li>
+
+          <li class="carta" id="card-reverse" data-name="Reverse" data-description="Inverte a direção do jogo.">
+            <img src="./src/images/card-reverse.png" alt="carta reverso" />
+          </li>
+
+          <li class="carta" id="card-zero" data-name="Zero" data-description="Carta de número zero. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-zero.png" alt="carta zero" />
+          </li>
+
+          <li class="carta" id="card-one" data-name="One" data-description="Carta de número um. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-one.png" alt="carta um" />
+          </li>
+
+          <li class="carta" id="card-two" data-name="Two" data-description="Carta de número dois. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-two.png" alt="carta dois" />
+          </li>
+
+          <li class="carta" id="card-three" data-name="Three" data-description="Carta de número três. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-three.png" alt="carta tres" />
+          </li>
+
+          <li class="carta" id="card-four" data-name="Four" data-description="Carta de número quatro. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-four.png" alt="carta quatro" />
+          </li>
+
+          <li class="carta" id="card-five" data-name="Five" data-description="Carta de número cinco. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-five.png" alt="carta cinco" />
+          </li>
+
+          <li class="carta" id="card-six" data-name="Six" data-description="Carta de número seis. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-six.png" alt="carta seis" />
+          </li>
+
+          <li class="carta" id="card-seven" data-name="Seven" data-description="Carta de número sete. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-seven.png" alt="carta sete" />
+          </li>
+
+          <li class="carta" id="card-eight" data-name="Eight" data-description="Carta de número oito. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-eight.png" alt="carta oito" />
+          </li>
+
+          <li class="carta" id="card-nine" data-name="Nine" data-description="Carta de número nove. Pode ser na cor vermelha, azul, verde ou amarela.">
+            <img src="./src/images/card-nine.png" alt="carta nove" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="carta-selecionada">
+        <img
+          class="carta-grande"
+          src="./src/images/card-draw-four-grande.png"
+          alt="carta mais quatro grande"
+        />
+
+        <div class="informacoes-carta">
+          <h2 class="nome-carta" id="nome-carta">Draw Four</h2>
+          <p class="descricao-carta" id="descricao-carta">Jogue esta carta para escolher a cor que continuará jogando e o próximo jogador deve comprar 4 cartas e perder a vez.</p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

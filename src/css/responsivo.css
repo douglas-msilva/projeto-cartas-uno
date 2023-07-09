@@ -1,0 +1,40 @@
+@media (max-width: 1180px){
+    .cabecalho .logo {
+        max-width: 100px;
+    }
+    .selecao-de-cartas {
+        flex-direction: column-reverse;
+        gap: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-cartas .cartas {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .selecao-de-cartas .cartas .titulo {
+        font-size: 20px;
+    }
+
+    .selecao-de-cartas .lista-de-cartas {
+        gap: 9px;
+    }
+
+    .selecao-de-cartas .carta img {
+        width: 80px;
+    }
+
+    .carta-selecionada .carta-grande {
+        width: 180px;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .carta-selecionada .descricao-carta {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
